@@ -30,8 +30,8 @@
             <phase>package</phase>
             <configuration>
               <tasks>
-				<copy file="target/dockerWebTest.war" tofile="docker/dockerWebTest.war"/>
-
+				<copy file="target/dockerWebTest.war" tofile="/"/>
+				<copy file="docker/Dockerfile" tofile="/"/>
               </tasks>
             </configuration>
             <goals>
