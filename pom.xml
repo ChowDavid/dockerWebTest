@@ -30,8 +30,8 @@
             <phase>package</phase>
             <configuration>
               <tasks>
-				<copy file="target/dockerWebTest.war" tofile="${project.basedir}"/>
-				<copy file="docker/Dockerfile" tofile="${project.basedir}"/>
+				<copy file="target/dockerWebTest.war" tofile="${project.basedir}/dockerWebTest.war"/>
+				<copy file="docker/Dockerfile" tofile="${project.basedir}/Dockerfile"/>
               </tasks>
             </configuration>
             <goals>
